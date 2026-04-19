@@ -1,153 +1,153 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Tasfia Zaman
+  label: Early Career AI Engineer / Researcher
+  email: tasfiazamanadrita@gmail.com
+  location: 'Dhaka, Bangladesh'
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: AI enthusiast interested in mechanistic interpretability, model editing, and representation learning. I completed a BSc in Computer Science at BRAC University with a 3.99/4.0 CGPA and a 4.0/4.0 major GPA, and I am currently exploring AI engineering and research opportunities.
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: kitkiti
     - network: GitHub
-      username: example
+      username: kitkiti
     - network: LinkedIn
-      username: example
+      username: tasfia-zaman-adrita
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: ""
+    city: Dhaka
+    region: ""
+    postalCode: ""
+    countryCode: BD
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: BRAC University
+        location: Dhaka, Bangladesh
+        area: Computer Science
+        studyType: BSc
+        end_date: 2026-01
+        score: CGPA 3.99/4.0 | Major GPA 4.0/4.0
         highlights:
-          - Description 1.
-          - Description 2.
+          - Relevant coursework includes Data Structures, Algorithms, Competitive Programming, Database Systems, Software Engineering, Artificial Intelligence, Robotics, Probability & Statistics, and Linear Algebra.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Feni Girls' Cadet College
+        location: Feni, Bangladesh
+        area: Science
+        studyType: Higher Secondary Certificate
+        end_date: 2020
+        score: GPA 5.0/5.0
+
+      - institution: Feni Girls' Cadet College
+        location: Feni, Bangladesh
+        area: Science
+        studyType: Secondary Certificate
+        end_date: 2018
+        score: GPA 5.0/5.0
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Independent Research Collaboration
+        position: Research Assistant
+        location: Remote
+        start_date: 2026-02
+        end_date: ""
+        summary: Remote collaboration on a research project on memory-augmented LLM editing with a Research Associate at a German Research Institute.
         highlights:
-          - Relativity
-          - Description 2.
+          - Reviewed associative-memory and FFN-as-memory literature, with practical focus on model editing approaches such as ROME.
+          - Contributed to experiment design and evaluation, including decoder-layer sweeps and analysis of edit success, locality, and generation-quality trade-offs.
+          - Built reproducible scripts, analysis pipelines, and project documentation that supported the final research report.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: BRAC University
+        position: Student Tutor
+        location: Dhaka, Bangladesh
+        start_date: 2024-10
+        end_date: 2025-05
+        summary: Provided structured academic support for undergraduate students through consultations and practical lab sessions.
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+          - Delivered around 15 hours of weekly support across problem-solving consultations and lab assistance.
+          - Helped students strengthen conceptual foundations and apply core course material with more confidence.
+          - Communicated technical ideas clearly in one-to-one and small-group learning settings.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    - company: BRAC University
+      position: Tutor, Project Srijon (Teaching & Civic Engagement)
+      location: Savar, Bangladesh
+      summary: Contributed to a BRAC University civic-engagement initiative supporting underprivileged students in grades 6–8.
+      highlights:
+        - "Facilitated lessons on basic ICT, safe internet use, social awareness, and adolescent well-being."
+        - "Supported small-group and one-to-one learning through discussion, roleplay, project work, and interactive activities."
+
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: VC's List
+        date: 2025
+        awarder: BRAC University
+        summary: Named to the VC's List in 10 of 11 semesters between 2022 and 2025.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Merit Scholarship
+        date: 2025
+        awarder: BRAC University
+        summary: Received a 75% tuition waiver between 2023 and 2025.
+
+      - title: Thesis Poster Presentation
+        date: 2025
+        awarder: BRAC University
+        summary: Placed 2nd out of 150+ participants.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Representation-aware unlearning via activation signatures: From suppression to knowledge-signature erasure"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - S. N. Mahmood
+          - M. R. R. Bhuiyan
+          - T. Zaman
+          - J. T. Khondaker
+          - M. S. Sakib
+          - K. M. S. Wadith
+          - N. Tasnim
+          - F. Sadeque
+        publisher: arXiv
+        releaseDate: 2026-01
+        url: https://arxiv.org/abs/2601.10566
+        summary: Work on representation-aware unlearning through activation signatures for more durable knowledge erasure across model families.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords:
+          - Python
+          - C/C++
+          - Java
+          - JavaScript
+          - SQL
+          - HTML
+          - CSS
+
+      - name: ML/AI
+        keywords:
+          - PyTorch
+          - Transformers (HF)
+          - NumPy
+          - Pandas
+          - JAX
+
+      - name: Web / Databases / Tools
+        keywords:
+          - React
+          - Node/Express
+          - Django
+          - MongoDB
+          - MySQL
+          - Git
+          - Postman
+          - Firebase
+          - Cloudinary
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: Fluent
+
+      - name: Bangla
+        summary: Native
 
     Interests:
       - name: Physics
@@ -155,29 +155,33 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: IELTS Academic
+        date: 2026-03
+        issuer: British Council
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: AI-Integrated Collaborative Research Tool
+        summary: Collaborative research platform for importing papers, enriching metadata, and anchoring citations directly to source documents.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Built with React/TypeScript, Node/Express, MongoDB, Supabase, and Liveblocks.
+          - Supported paper import from PDF, DOI, arXiv, and URL sources.
+          - Added automatic metadata enrichment using Crossref, Semantic Scholar, and arXiv APIs.
+          - Implemented citation anchoring with saved PDF spans, page and character offsets, bounding boxes, and BibTeX/APA export.
+
+      - name: Music Streaming Platform
+        summary: MERN-based music platform with authentication, playlist management, and admin workflows.
+        highlights:
+          - Designed REST APIs using an MVC structure.
+          - Implemented JWT/Bcrypt authentication and role-based admin controls.
+          - Built responsive playback and playlist flows.
+          - Used Cloudinary for audio and artwork uploads.
+
+      - name: Livestock E-Commerce Platform
+        summary: Django-based commerce platform for livestock listings and transaction workflows.
+        highlights:
+          - Developed product and transaction flows.
+          - Added filtered search by title, price, and category.
+          - Designed the database schema and integrated Django ORM with frontend templates.
 
     References:
       - name: Professor John Doe
