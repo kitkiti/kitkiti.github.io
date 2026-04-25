@@ -1,0 +1,153 @@
+/*******************************************************************************
+ * Wonderland Theme Overrides
+ *
+ * This file layers a contained visual skin on top of al-folio components
+ * without changing layout structure, routes, or content semantics.
+ *******************************************************************************/
+
+:root,
+html[data-theme="dark"] {
+  --wonderland-bg-color: #050007;
+  --wonderland-surface-color: #110014;
+  --wonderland-accent-color: #ff4fb8;
+  --wonderland-glow-color: #ff00a8;
+  --wonderland-secondary-color: #ff9bd8;
+  --wonderland-text-color: #fff0fa;
+  --wonderland-border-color: rgba(255, 79, 184, 0.45);
+  --wonderland-grid-color: rgba(255, 79, 184, 0.1);
+
+  background-color: var(--wonderland-bg-color);
+}
+
+body {
+  background-color: var(--wonderland-bg-color);
+  background-image:
+    linear-gradient(var(--wonderland-grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--wonderland-grid-color) 1px, transparent 1px);
+  background-size: 16px 16px;
+  color: var(--wonderland-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .navbar-brand,
+button,
+.btn,
+.badge,
+.publications .abbr abbr,
+.publications .links a.btn {
+  font-family: "Press Start 2P", "VT323", "Courier New", monospace;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--wonderland-accent-color);
+  text-shadow: 0 0 6px rgba(255, 79, 184, 0.25);
+}
+
+a {
+  color: var(--wonderland-secondary-color);
+  text-decoration-color: rgba(255, 155, 216, 0.55);
+
+  &:hover {
+    color: var(--wonderland-glow-color);
+    text-shadow: 0 0 8px rgba(255, 0, 168, 0.35);
+  }
+}
+
+.navbar,
+footer.fixed-bottom,
+footer.sticky-bottom,
+.card,
+.cv .card,
+.publications ol.bibliography li,
+.table,
+pre,
+code:not(.highlighter-rouge code),
+.alert {
+  background-color: var(--wonderland-surface-color);
+  border: 1px solid var(--wonderland-border-color);
+  border-radius: 0;
+}
+
+.navbar {
+  box-shadow: 0 3px 0 rgba(255, 0, 168, 0.55);
+}
+
+.card,
+.projects .card,
+.cv .card,
+.publications ol.bibliography li {
+  box-shadow: 4px 4px 0 rgba(255, 0, 168, 0.8);
+}
+
+.btn,
+.publications .links a.btn,
+.badge {
+  border-radius: 0;
+  border: 1px solid var(--wonderland-accent-color);
+  background-color: transparent;
+  color: var(--wonderland-text-color);
+  box-shadow: 4px 4px 0 rgba(255, 0, 168, 0.8);
+
+  &:hover {
+    color: var(--wonderland-text-color);
+    background-color: rgba(255, 79, 184, 0.2);
+    border-color: var(--wonderland-glow-color);
+    box-shadow: 2px 2px 0 rgba(255, 0, 168, 0.9);
+    transform: translate(1px, 1px);
+  }
+}
+
+.publications {
+  .author > span.more-authors,
+  .badges span,
+  .author a,
+  .links a.btn {
+    color: var(--wonderland-secondary-color);
+    border-color: var(--wonderland-secondary-color);
+  }
+
+  div.abstract.hidden,
+  div.award.hidden {
+    border-color: var(--wonderland-border-color);
+  }
+}
+
+.profile {
+  position: relative;
+
+  &::after {
+    content: "=^.^=";
+    position: absolute;
+    top: -0.9rem;
+    right: 0;
+    font-family: "Press Start 2P", "VT323", "Courier New", monospace;
+    font-size: 0.68rem;
+    color: var(--wonderland-accent-color);
+    text-shadow: 2px 2px 0 rgba(255, 0, 168, 0.45);
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card,
+  .projects .card,
+  .cv .card,
+  .publications ol.bibliography li,
+  .btn,
+  .publications .links a.btn {
+    box-shadow: 2px 2px 0 rgba(255, 0, 168, 0.75);
+  }
+
+  .profile::after {
+    top: -0.75rem;
+    font-size: 0.6rem;
+  }
+}
