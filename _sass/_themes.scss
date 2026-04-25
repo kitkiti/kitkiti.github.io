@@ -34,7 +34,8 @@
   --wonderland-border: rgba(232, 107, 184, 0.55);
   --wonderland-shadow: 3px 3px 0 rgba(232, 107, 184, 0.28);
   --wonderland-shadow-secondary: 0 0 0 1px rgba(79, 191, 115, 0.2);
-  --wonderland-cat-face: " (=^???^=) ";
+  --wonderland-pixel-font: "Press Start 2P", "Silkscreen", "Pixelify Sans", "VT323", monospace;
+  --wonderland-cat-face: " ᓚᘏᗢ ";
   --wonderland-cat-label: "curiouser & cuter";
   --wonderland-radius: 8px;
   --wonderland-glow: 0 0 10px rgba(232, 107, 184, 0.2);
@@ -112,7 +113,8 @@ html[data-theme="dark"] {
   --wonderland-border: rgba(57, 255, 136, 0.58);
   --wonderland-shadow: 4px 4px 0 rgba(255, 0, 168, 0.85);
   --wonderland-shadow-secondary: -2px -2px 0 rgba(57, 255, 136, 0.4);
-  --wonderland-cat-face: " ??? ";
+  --wonderland-pixel-font: "Press Start 2P", "Silkscreen", "Pixelify Sans", "VT323", monospace;
+  --wonderland-cat-face: " >^..^< ";
   --wonderland-cat-label: "we're all mad here";
   --wonderland-radius: 0;
   --wonderland-glow: 0 0 14px rgba(57, 255, 136, 0.42);

@@ -25,18 +25,30 @@ body {
 /***********************************
  * Typography accents (keep body text readable)
  ***********************************/
+.wonderland-pixel-ui {
+  font-family: var(--wonderland-pixel-font);
+  letter-spacing: 0.02em;
+}
+
+/*
+ * Note: this stack intentionally references pixel fonts that should be
+ * self-hosted under assets/fonts/ if not already available on the system.
+ */
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-item .nav-link,
 h1,
 h2,
 h3,
-.navbar .navbar-nav .nav-item .nav-link,
-.navbar .navbar-brand,
-button,
+.page-heading,
 .btn,
+button,
 .badge,
 .publications .abbr abbr,
-.publications .links a.btn {
-  font-family: "Press Start 2P", "VT323", "Courier New", monospace;
-  letter-spacing: 0.02em;
+.profile::before,
+.profile::after,
+.wonderland-label,
+.section-label {
+  @extend .wonderland-pixel-ui;
 }
 
 h1,
@@ -137,7 +149,7 @@ code:not(.highlighter-rouge code),
     position: absolute;
     top: -0.9rem;
     right: 0;
-    font-family: "Press Start 2P", "VT323", "Courier New", monospace;
+    font-family: var(--wonderland-pixel-font);
     font-size: 0.68rem;
     color: var(--global-theme-color);
     text-shadow: var(--wonderland-glow);
@@ -154,7 +166,7 @@ code:not(.highlighter-rouge code),
     border-radius: var(--wonderland-radius);
     background: var(--global-card-bg-color);
     color: var(--global-text-color-light);
-    font-family: "Press Start 2P", "VT323", "Courier New", monospace;
+    font-family: var(--wonderland-pixel-font);
     font-size: 0.45rem;
     letter-spacing: 0.04em;
     text-transform: lowercase;
