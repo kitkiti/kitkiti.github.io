@@ -11,12 +11,9 @@
 body {
   background-color: var(--global-bg-color);
   background-image:
-    linear-gradient(var(--wonderland-bg-grid) 1px, transparent 1px), linear-gradient(90deg, var(--wonderland-bg-grid) 1px, transparent 1px),
     radial-gradient(circle at 20% 10%, rgba(247, 168, 216, 0.12), transparent 38%),
     radial-gradient(circle at 82% 6%, rgba(168, 240, 189, 0.12), transparent 34%);
   background-size:
-    16px 16px,
-    16px 16px,
     100% 100%,
     100% 100%;
   color: var(--global-text-color);
@@ -272,7 +269,6 @@ footer.sticky-bottom {
 html[data-theme="dark"] {
   body {
     background-image:
-      linear-gradient(var(--wonderland-bg-grid) 1px, transparent 1px), linear-gradient(90deg, var(--wonderland-bg-grid) 1px, transparent 1px),
       radial-gradient(circle at 15% 12%, rgba(255, 79, 184, 0.12), transparent 34%),
       radial-gradient(circle at 86% 18%, rgba(57, 255, 136, 0.1), transparent 38%);
   }
