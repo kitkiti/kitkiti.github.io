@@ -111,7 +111,6 @@ a {
 .cv .card,
 .publications ol.bibliography li,
 .news,
-.table,
 pre,
 code:not(.highlighter-rouge code),
 .alert,
@@ -121,6 +120,42 @@ code:not(.highlighter-rouge code),
   border: 1px solid var(--wonderland-border);
   border-radius: var(--wonderland-radius);
   box-shadow: var(--wonderland-shadow);
+}
+
+// al-folio uses `.news` for both the News and Latest Posts homepage tables.
+// Keep each `.news` wrapper as one standalone card, and prevent its nested
+// Bootstrap table wrappers from receiving duplicate card chrome.
+.news {
+  overflow: hidden;
+
+  .table-responsive {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  table,
+  .table {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  th,
+  td,
+  tr {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .table-sm th,
+  .table-sm td {
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+  }
 }
 
 .publications {
