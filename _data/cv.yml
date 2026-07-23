@@ -1,193 +1,175 @@
 cv:
   name: Tasfia Zaman
-  label: Early Career AI Engineer / Researcher
+  headline: Adjunct Lecturer | AI Researcher
   email: tasfiazamanadrita@gmail.com
-  location: 'Dhaka, Bangladesh'
-  image: ""
-  summary: AI enthusiast interested in mechanistic interpretability, model editing, and representation learning. I completed a BSc in Computer Science at BRAC University with a 3.99/4.0 CGPA and a 4.0/4.0 major GPA, and I am currently exploring AI engineering and research opportunities.
+  location: "Dhaka, Bangladesh"
 
   social_networks:
-    - network: X
-      username: kitkiti
     - network: GitHub
       username: kitkiti
     - network: LinkedIn
       username: tasfia-zaman-adrita
 
-  address:
-    street: ""
-    city: Dhaka
-    region: ""
-    postalCode: ""
-    countryCode: BD
-
   sections:
+    Profile:
+      - label: Summary
+        details: Adjunct Lecturer at BRAC University and AI researcher interested in language-model unlearning, knowledge editing, mechanistic interpretability, and representation learning. BSc in Computer Science and Engineering from BRAC University with a CGPA of 3.99/4.00.
+
     Education:
       - institution: BRAC University
         location: Dhaka, Bangladesh
-        area: Computer Science
-        studyType: BSc
-        end_date: 2026-01
-        score: CGPA 3.99/4.0 | Major GPA 4.0/4.0
+        area: Computer Science and Engineering
+        studyType: Bachelor of Science
+        start_date: 2022
+        end_date: 2026
+        score: CGPA 3.99/4.00
         highlights:
-          - Relevant coursework includes Data Structures, Algorithms, Competitive Programming, Database Systems, Software Engineering, Artificial Intelligence, Robotics, Probability & Statistics, and Linear Algebra.
+          - Member of the Robotics Club of BRAC University and Junior Executive at the BRAC University Community Service Club.
+          - Participated in Inter University Programming Contests.
+          - Named to the VC's List in 10 of 11 semesters and received a 75% merit-based scholarship.
 
       - institution: Feni Girls' Cadet College
         location: Feni, Bangladesh
         area: Science
         studyType: Higher Secondary Certificate
+        start_date: 2014
         end_date: 2020
-        score: GPA 5.0/5.0
-
-      - institution: Feni Girls' Cadet College
-        location: Feni, Bangladesh
-        area: Science
-        studyType: Secondary Certificate
-        end_date: 2018
-        score: GPA 5.0/5.0
+        score: GPA 5.00/5.00
+        highlights:
+          - Served as Junior Prefect in 2018 and House Cultural Prefect in 2019.
+          - Received Talent Pool Scholarships for JSC and SSC and a General Scholarship for HSC.
+          - Named Senior Group Best Athlete in 2019 and reached the quarter-finals of the 13th National English Parliamentary TV Debate Competition in 2018.
 
     Experience:
+      - company: BRAC University
+        position: Adjunct Lecturer
+        location: Dhaka, Bangladesh
+        start_date: 2026-06-22
+        end_date: present
+        summary: Teaching undergraduate classes in the Department of Computer Science and Engineering.
+
       - company: Independent Research Collaboration
         position: Research Assistant
         location: Remote
-        start_date: 2026-02
-        end_date: ""
-        summary: Remote collaboration on a research project on memory-augmented LLM editing with a Research Associate at a German Research Institute.
-        highlights:
-          - Reviewed associative-memory and FFN-as-memory literature, with practical focus on model editing approaches such as ROME.
-          - Contributed to experiment design and evaluation, including decoder-layer sweeps and analysis of edit success, locality, and generation-quality trade-offs.
-          - Built reproducible scripts, analysis pipelines, and project documentation that supported the final research report.
+        summary: Worked with a Germany-based Research Associate on knowledge editing in large language models through associative-memory-based modifications to Transformer architectures.
 
       - company: BRAC University
-        position: Student Tutor
+        position: Student Tutor (Undergraduate TA)
         location: Dhaka, Bangladesh
-        start_date: 2024-10
+        start_date: 2024-11
         end_date: 2025-05
-        summary: Provided structured academic support for undergraduate students through consultations and practical lab sessions.
+        summary: Provided structured academic support for students in 100- and 200-level CSE courses.
         highlights:
-          - Delivered around 15 hours of weekly support across problem-solving consultations and lab assistance.
-          - Helped students strengthen conceptual foundations and apply core course material with more confidence.
-          - Communicated technical ideas clearly in one-to-one and small-group learning settings.
+          - Delivered approximately 15 hours of support per week through lab assistance and one-to-one consultations.
+          - Developed individualized tutoring plans and guided students on assignments and quizzes.
+          - Tracked student progress, maintained contact-hour records, and reported regularly to an academic supervisor.
 
     Volunteer:
-    - company: BRAC University
-      position: Tutor, Project Srijon (Teaching & Civic Engagement)
-      location: Savar, Bangladesh
-      summary: Contributed to a BRAC University civic-engagement initiative supporting underprivileged students in grades 6–8.
-      highlights:
-        - "Facilitated lessons on basic ICT, safe internet use, social awareness, and adolescent well-being."
-        - "Supported small-group and one-to-one learning through discussion, roleplay, project work, and interactive activities."
-
-
-    Awards:
-      - title: VC's List
-        date: 2025
-        awarder: BRAC University
-        summary: Named to the VC's List in 10 of 11 semesters between 2022 and 2025.
-
-      - title: Merit Scholarship
-        date: 2025
-        awarder: BRAC University
-        summary: Received a 75% tuition waiver between 2023 and 2025.
-
-      - title: Thesis Poster Presentation
-        date: 2025
-        awarder: BRAC University
-        summary: Placed 2nd out of 150+ participants.
+      - company: BRAC University
+        position: Tutor, Project Srijon
+        location: Savar, Bangladesh
+        summary: Contributed to a civic-engagement initiative supporting underprivileged students in grades 6-8.
+        highlights:
+          - Facilitated lessons on basic ICT, safe internet use, social awareness, and adolescent well-being.
+          - Supported small-group and one-to-one learning through discussion, roleplay, project work, and interactive activities.
 
     Publications:
-      - title: "Representation-aware unlearning via activation signatures: From suppression to knowledge-signature erasure"
+      - title: "Representation-Aware Unlearning via Activation Signatures: From Suppression to Entity-Signature Erasure"
         authors:
-          - S. N. Mahmood
-          - M. R. R. Bhuiyan
-          - T. Zaman
-          - J. T. Khondaker
-          - M. S. Sakib
-          - K. M. S. Wadith
-          - N. Tasnim
-          - F. Sadeque
+          - Syed Naveed Mahmood
+          - Md. Rezaur Rahman Bhuiyan
+          - Tasfia Zaman
+          - Jareen Tasneem Khondaker
+          - Md. Sameer Sakib
+          - K. M. Shadman Wadith
+          - Nazia Tasnim
+          - Farig Sadeque
         publisher: arXiv
-        releaseDate: 2026-01
+        releaseDate: 2026-01-15
         url: https://arxiv.org/abs/2601.10566
-        summary: Work on representation-aware unlearning through activation signatures for more durable knowledge erasure across model families.
+        summary: Representation-aware unlearning through activation signatures for durable knowledge erasure. Tasfia Zaman and Md. Rezaur Rahman Bhuiyan contributed equally.
+
+    Projects:
+      - name: HyperCite - AI Research Summarization & Collaboration Hub
+        url: https://hypercite.vercel.app
+        summary: Collaborative research platform for grounded AI assistance, paper organization, and source-anchored citation verification.
+        highlights:
+          - Ranked first among 120+ projects at the BRACU CSE471 System Analysis and Design Project Showcase in Fall 2025.
+          - Built a hybrid RAG pipeline combining MongoDB Atlas vector search with lexical fallback and cross-paper chunk diversification.
+          - Implemented page-level, excerpt-anchored citations and real-time collaborative annotation with Liveblocks.
+          - Built with React, TypeScript, Node.js, Express, MongoDB, Supabase, and Liveblocks.
+
+      - name: Mewply - Music Streaming Platform
+        url: https://github.com/kitkiti/Music-Streaming-App
+        summary: MERN music-streaming platform with separate user, administration, and backend applications.
+        highlights:
+          - Designed REST APIs following MVC patterns with JWT and Bcrypt authentication.
+          - Built responsive audio playback and playlist management.
+          - Integrated Cloudinary for media storage and streaming.
+
+      - name: HambaMart - Livestock E-commerce Platform
+        url: https://github.com/kitkiti/HambaMart
+        summary: Django marketplace supporting buyers, sellers, administrators, products, transactions, and inventory workflows.
+        highlights:
+          - Designed the EER diagram and relational database schema.
+          - Implemented filtered search using Django ORM.
+          - Added role-based access control and a template-driven frontend.
+
+    Awards:
+      - name: System Analysis and Design Project Showcase
+        date: 2025
+        location: BRAC University
+        summary: Ranked first among 120+ teams for HyperCite.
+
+      - name: Thesis Poster Presentation
+        date: 2025
+        location: BRAC University
+        summary: Placed second among 150+ teams.
+
+      - name: Next Gen Ideathon
+        date: 2025
+        location: Bioinformatics Track
+        summary: First runner-up.
+
+      - name: VC's List
+        date: 2022-2025
+        location: BRAC University
+        summary: Named to the VC's List in 10 of 11 semesters.
+
+      - name: Merit-Based Scholarship
+        date: 2023-2025
+        location: BRAC University
+        summary: Received a 75% tuition scholarship based on academic performance.
 
     Skills:
-      - name: Programming
-        keywords:
-          - Python
-          - C/C++
-          - Java
-          - JavaScript
-          - SQL
-          - HTML
-          - CSS
+      - label: Languages
+        details: Python, C/C++, Java, JavaScript/TypeScript, SQL, HTML/CSS, LaTeX, Bash
 
-      - name: ML/AI
-        keywords:
-          - PyTorch
-          - Transformers (HF)
-          - NumPy
-          - Pandas
-          - JAX
+      - label: Frameworks and Libraries
+        details: PyTorch, Hugging Face Transformers, NumPy, Pandas, JAX, React, Node.js/Express, Django
 
-      - name: Web / Databases / Tools
-        keywords:
-          - React
-          - Node/Express
-          - Django
-          - MongoDB
-          - MySQL
-          - Git
-          - Postman
-          - Firebase
-          - Cloudinary
-
-    Languages:
-      - name: English
-        summary: Fluent
-
-      - name: Bangla
-        summary: Native
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - label: Tools and Databases
+        details: Git, Postman, MongoDB, MySQL/MariaDB, Firebase, Cloudinary, Supabase, Liveblocks
 
     Certificates:
       - name: IELTS Academic
         date: 2026-03
         issuer: British Council
+        summary: Overall Band 8.5 - Listening 9, Reading 8.5, Writing 8, Speaking 8.
 
-    Projects:
-      - name: AI-Integrated Collaborative Research Tool
-        summary: Collaborative research platform for importing papers, enriching metadata, and anchoring citations directly to source documents.
-        highlights:
-          - Built with React/TypeScript, Node/Express, MongoDB, Supabase, and Liveblocks.
-          - Supported paper import from PDF, DOI, arXiv, and URL sources.
-          - Added automatic metadata enrichment using Crossref, Semantic Scholar, and arXiv APIs.
-          - Implemented citation anchoring with saved PDF spans, page and character offsets, bounding boxes, and BibTeX/APA export.
+    Languages:
+      - name: Bangla
+        summary: Native
+      - name: English
+        summary: Fluent; IELTS Academic Overall Band 8.5
 
-      - name: Music Streaming Platform
-        summary: MERN-based music platform with authentication, playlist management, and admin workflows.
-        highlights:
-          - Designed REST APIs using an MVC structure.
-          - Implemented JWT/Bcrypt authentication and role-based admin controls.
-          - Built responsive playback and playlist flows.
-          - Used Cloudinary for audio and artwork uploads.
-
-      - name: Livestock E-Commerce Platform
-        summary: Django-based commerce platform for livestock listings and transaction workflows.
-        highlights:
-          - Developed product and transaction flows.
-          - Added filtered search by title, price, and category.
-          - Designed the database schema and integrated Django ORM with frontend templates.
+    Interests:
+      - label: AI Research
+        details: Language-model unlearning, knowledge editing, mechanistic interpretability, representation learning
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - label: Kabbya Kantam Patwary
+        details: Lecturer, Department of Computer Science and Engineering, BRAC University. Course instructor and competitive programming coach.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - label: Farig Yousuf Sadeque
+        details: Associate Professor, Department of Computer Science and Engineering, BRAC University. Thesis supervisor.

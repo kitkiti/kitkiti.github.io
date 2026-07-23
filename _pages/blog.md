@@ -29,6 +29,11 @@ pagination:
   </div>
   {% endif %}
 
+{% if site.posts.size == 0 %}
+
+  <p>I am preparing posts on AI research, teaching, software projects, and lessons learned along the way. Check back soon.</p>
+{% endif %}
+
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">

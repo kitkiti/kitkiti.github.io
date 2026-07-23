@@ -23,6 +23,10 @@
       {% if entry.date %}
         ({{ entry.date | split: '-' | slice: 0, 1 | join: '' }})
       {% endif %}
+
+      {% if entry.summary %}
+        <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
