@@ -18,17 +18,23 @@
     {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
+<div class="repo w-100 p-2 text-center">
+  <a href="https://github.com/{{ include.username }}" target="_blank" rel="noopener noreferrer">
     <img
       class="only-light w-100"
       alt="{{ include.username }}"
       src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+      onerror="this.hidden=true; this.parentElement.querySelector('.repo-fallback').hidden=false;"
     >
     <img
       class="only-dark w-100"
       alt="{{ include.username }}"
       src="{{ site.external_services.github_readme_stats_url }}/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
+      onerror="this.hidden=true; this.parentElement.querySelector('.repo-fallback').hidden=false;"
     >
+    <span class="repo-fallback card p-3 text-left" hidden>
+      <span class="h5 mb-1"><i class="fa-brands fa-github mr-2"></i>{{ include.username }}</span>
+      <span class="text-muted">View GitHub profile</span>
+    </span>
   </a>
 </div>

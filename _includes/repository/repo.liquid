@@ -31,17 +31,24 @@
   {% assign max_lines = 2 %}
 {% endif %}
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
+<div class="repo w-100 p-2 text-center">
+  <a href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener noreferrer">
     <img
       class="only-light w-100"
       alt="{{ include.repository }}"
       src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      onerror="this.hidden=true; this.parentElement.querySelector('.repo-fallback').hidden=false;"
     >
     <img
       class="only-dark w-100"
       alt="{{ include.repository }}"
       src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      onerror="this.hidden=true; this.parentElement.querySelector('.repo-fallback').hidden=false;"
     >
+    <span class="repo-fallback card h-100 p-3 text-left" hidden>
+      <span class="h5 mb-1"><i class="fa-solid fa-code-branch mr-2"></i>{{ repo_url[1] }}</span>
+      <span class="text-muted">{{ repo_url[0] }}</span>
+      <span class="mt-3">View repository on GitHub <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i></span>
+    </span>
   </a>
 </div>
