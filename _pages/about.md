@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Adjunct Lecturer in the Department of Computer Science and Engineering at BRAC University. I completed my BSc in Computer Science and Engineering at BRAC University with a CGPA of 3.99/4.00.
+I am an Adjunct Lecturer in the Department of Computer Science and Engineering at BRAC University, where I also completed my BSc in Computer Science and Engineering with a CGPA of 3.99/4.00.
 
-My research interests include language-model unlearning, knowledge editing, mechanistic interpretability, and representation learning. My undergraduate thesis investigated entity-level knowledge erasure in large language models through activation signatures. I have also worked remotely as a Research Assistant with a Germany-based Research Associate on associative-memory approaches to knowledge editing.
+My research interests include language-model unlearning, knowledge editing, mechanistic interpretability, and representation learning. For my undergraduate thesis, I investigated entity-level knowledge erasure in large language models through activation signatures. I have also worked remotely as a Research Assistant with a research associate based in Germany, exploring associative-memory approaches to knowledge editing.
 
-Alongside research and teaching, I enjoy building software that makes technical work easier to understand and verify. Recent projects include [HyperCite](https://hypercite.vercel.app), a collaborative research platform with grounded AI assistance and source-anchored citations.
+Outside research and teaching, I enjoy staying active. I used to be an athlete while studying at [a military boarding school for girls](https://fgcc.army.mil.bd/) in Feni, Bangladesh. Over time, however, continuing some of those hobbies has become increasingly difficult as a middle-class woman living in Dhaka’s conservative, concrete-dense urban environment. I still miss being able to run, play, and spend hours outdoors.
