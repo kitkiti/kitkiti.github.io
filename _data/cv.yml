@@ -51,6 +51,8 @@ cv:
       - company: Independent Research Collaboration
         position: Research Assistant
         location: Remote
+        start_date: 2026-02
+        end_date: 2026-06
         summary: Worked with a Germany-based Research Associate on knowledge editing in large language models through associative-memory-based modifications to Transformer architectures.
 
       - company: BRAC University
@@ -74,6 +76,20 @@ cv:
           - Supported small-group and one-to-one learning through discussion, roleplay, project work, and interactive activities.
 
     Publications:
+      - title: "Same Sink, Different Plumbing: Reproducing and Refining the Mechanism of Attention Sinks"
+        authors:
+          - Abdullah Al Zubayer
+          - Syed Naveed Mahmood
+          - Md. Rezaur Rahman Bhuiyan
+          - Mir Md Mohiuddin Abrar
+          - Jareen Tasneem Khondaker
+          - Tasfia Zaman
+          - Farig Sadeque
+        publisher: "Accepted to the BlackboxNLP 2026 Reproducibility Special Track (forthcoming)"
+        date: 2026-09-02
+        url: https://blackboxnlp.github.io/2026/accepted_papers/
+        summary: Reproduces and extends the analysis of attention-sink mechanisms across model architectures.
+
       - title: "Representation-Aware Unlearning via Activation Signatures: From Suppression to Entity-Signature Erasure"
         authors:
           - Syed Naveed Mahmood
@@ -84,7 +100,7 @@ cv:
           - K. M. Shadman Wadith
           - Nazia Tasnim
           - Farig Sadeque
-        publisher: arXiv
+        publisher: "Accepted to Findings of EMNLP 2026 (forthcoming); arXiv preprint"
         releaseDate: 2026-01-15
         url: https://arxiv.org/abs/2601.10566
         summary: Representation-aware unlearning through activation signatures for durable knowledge erasure. Tasfia Zaman and Md. Rezaur Rahman Bhuiyan contributed equally.
