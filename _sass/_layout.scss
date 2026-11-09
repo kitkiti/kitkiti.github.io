@@ -44,6 +44,39 @@ body.sticky-bottom-footer {
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples
 
+// About page identity and research introduction
+.about-hero {
+  display: flow-root;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: var(--about-hero-bg);
+  border: 1px solid var(--about-hero-border);
+  border-top: 3px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+
+  .post-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-title {
+    font-size: 2rem;
+  }
+
+  .desc {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 575.98px) {
+    padding: 1.25rem 1rem;
+
+    .profile.float-left,
+    .profile.float-right {
+      float: none !important;
+      margin: 0 0 1.25rem;
+    }
+  }
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/

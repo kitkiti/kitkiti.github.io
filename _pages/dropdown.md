@@ -9,4 +9,6 @@ children:
     permalink: /blog/
   - title: repositories
     permalink: /repositories/
+  - title: misc
+    permalink: /misc/
 ---

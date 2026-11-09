@@ -9,12 +9,12 @@ last_name: Zaman
 contact_note: >
   The best way to reach me is by email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Tasfia Zaman, an Adjunct Lecturer at BRAC University and an AI researcher
-  interested in language-model unlearning, knowledge editing, and mechanistic interpretability.
+  Personal website of Tasfia Zaman, an Adjunct Lecturer at BRAC University working on AI safety, trustworthy AI,
+  mechanistic interpretability, machine unlearning, and knowledge editing.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Tasfia Zaman, artificial intelligence, machine learning, large language models, model unlearning, knowledge editing, mechanistic interpretability, BRAC University
+keywords: Tasfia Zaman, artificial intelligence, AI safety, trustworthy AI, large language models, mechanistic interpretability, machine unlearning, knowledge editing, representation analysis, BRAC University
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Adjunct Lecturer at <a href="https://www.bracu.ac.bd/">BRAC University</a> | AI researcher
+subtitle: Adjunct Lecturer at <a href="https://www.bracu.ac.bd/">BRAC University</a> | AI Safety & Trustworthy AI
 
 profile:
   align: right
@@ -22,13 +22,24 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+research_directions:
+  - title: Knowledge–behavior mismatch
+    description: >-
+      Understanding when a language model's observable behavior gives an incomplete picture of what it represents internally,
+      including settings involving suppression, refusal, and latent knowledge.
+  - title: Model interventions
+    description: >-
+      Studying whether unlearning and knowledge-editing methods genuinely alter internal representations rather than only changing model outputs.
+  - title: Mechanistic interpretability
+    description: >-
+      Using representation-level and causal analyses to understand the mechanisms underlying model behavior and whether those explanations
+      generalize across models and settings.
 ---
 
-I am an Adjunct Lecturer in the Department of Computer Science and Engineering at BRAC University, where I also completed my BSc in Computer Science and Engineering with a CGPA of 3.99/4.00.
+I am an Adjunct Lecturer in the Department of Computer Science and Engineering at BRAC University. My research is broadly in AI safety and trustworthy AI, with a focus on understanding how the internal states and mechanisms of language models relate to their observable behavior.
 
-My research interests include language-model unlearning, knowledge editing, mechanistic interpretability, and representation learning. For my undergraduate thesis, I investigated entity-level knowledge erasure in large language models through activation signatures. I have also worked remotely as a Research Assistant with a research associate based in Germany, exploring associative-memory approaches to knowledge editing.
-
-Outside research and teaching, I enjoy staying active. I used to be an athlete while studying at [a military boarding school for girls](https://fgcc.army.mil.bd/) in Feni, Bangladesh. Over time, however, continuing some of those hobbies has become increasingly difficult as a middle-class woman living in Dhaka’s conservative, concrete-dense urban environment. I still miss being able to run, play, and spend hours outdoors.
+I am particularly interested in settings where behavior can give an incomplete picture of what a model represents internally. My work spans mechanistic interpretability, machine unlearning, and knowledge editing, with an emphasis on representation-level and causal analyses that can help us evaluate and intervene on language models more reliably.

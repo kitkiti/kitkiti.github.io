@@ -49,6 +49,8 @@
 }
 
 .navbar.navbar-light {
+  border-bottom: 2px solid var(--global-theme-color);
+
   a {
     &:hover {
       text-decoration: none;
