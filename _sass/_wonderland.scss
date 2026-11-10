@@ -89,3 +89,158 @@ footer.sticky-bottom {
     }
   }
 }
+
+// Personal chapters use the existing page layout and sidebar TOC.
+.misc-page {
+  > h2 {
+    margin-top: 2.75rem;
+    margin-bottom: 1.25rem;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .misc-meta {
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  .misc-timeline {
+    margin: 0 0 0 0.25rem;
+    padding: 0 0 0 1.5rem;
+    border-left: 1px solid var(--global-divider-color);
+    list-style: none;
+  }
+
+  .misc-timeline-item {
+    position: relative;
+    padding-bottom: 1.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.5rem;
+      left: -1.75rem;
+      width: 0.45rem;
+      height: 0.45rem;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 50%;
+      background-color: var(--global-bg-color);
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .misc-panel,
+  .misc-reading-card {
+    padding: 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+  }
+
+  .misc-panel p {
+    margin-bottom: 0;
+  }
+
+  .misc-reading-card {
+    border-left: 3px solid var(--global-theme-color);
+
+    p {
+      margin-bottom: 0.75rem;
+    }
+
+    a:hover,
+    a:focus-visible {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
+// MDB explicitly makes nav links visible, overriding the TOC's inherited hiding.
+@media (max-width: 576px) {
+  body:has(.misc-page) #toc-sidebar {
+    display: none;
+  }
+}
+
+// The CV is a document, with a compact alternative for small screens.
+.cv-document-page {
+  .cv-document-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+
+    a {
+      padding: 0.5rem 0.9rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.2rem;
+      background-color: var(--global-card-bg-color);
+      color: var(--global-text-color);
+      font-size: 0.9rem;
+      text-decoration: none;
+
+      &:hover,
+      &:focus-visible {
+        border-color: var(--global-hover-color);
+        color: var(--global-hover-color);
+      }
+    }
+  }
+
+  .cv-document-desktop {
+    display: none;
+  }
+
+  .cv-document-viewer {
+    display: block;
+    width: 100%;
+    height: clamp(36rem, 78vh, 52rem);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+
+    p {
+      padding: 1.25rem;
+    }
+  }
+
+  .cv-document-preview-note {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .cv-document-mobile-fallback {
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    background-color: var(--global-card-bg-color);
+  }
+
+  @media (min-width: 768px) {
+    .cv-document-desktop {
+      display: block;
+    }
+
+    .cv-document-mobile-fallback {
+      display: none;
+    }
+  }
+}

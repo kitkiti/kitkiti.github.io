@@ -1,0 +1,48 @@
+---
+layout: page
+---
+{% if page.cv_pdf contains '://' %}
+  {% assign cv_url = page.cv_pdf %}
+  {% assign cv_is_external = true %}
+{% else %}
+  {% assign cv_url = page.cv_pdf | relative_url %}
+  {% assign cv_is_external = false %}
+{% endif %}
+
+<div class="cv-document-page">
+  <div class="cv-document-actions">
+    {% if cv_is_external %}
+      <a href="{{ cv_url }}">View PDF</a>
+    {% else %}
+      <a href="{{ cv_url }}" download>Download PDF</a>
+    {% endif %}
+    <a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+  </div>
+
+  <div class="cv-document-desktop">
+    <object
+      class="cv-document-viewer"
+      data="{{ cv_url }}"
+      type="application/pdf"
+      title="Curriculum vitae PDF"
+      aria-label="Curriculum vitae PDF"
+    >
+      <p>
+        Inline PDF viewing is unavailable.
+        <a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer">Open the PDF in a new tab</a>.
+      </p>
+    </object>
+    <p class="cv-document-preview-note">
+      Preview not loading?
+      <a href="{{ cv_url }}" target="_blank" rel="noopener noreferrer">Open the PDF in a new tab</a>.
+    </p>
+  </div>
+
+  <p class="cv-document-mobile-fallback">
+    For comfortable reading on a small screen,
+    {% if cv_is_external %}open or view{% else %}open or download{% endif %}
+    the PDF using the links above.
+  </p>
+
+  {{ content }}
+</div>
