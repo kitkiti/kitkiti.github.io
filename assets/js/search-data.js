@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Selected research, web, systems, and machine-learning projects.",
+          description: "Selected research and technical work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -29,13 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Teaching experience and course information.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "nav-updates",
           title: "updates",
@@ -50,13 +43,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
-              },
-            },{id: "dropdown-repositories",
-              title: "repositories",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/repositories/";
               },
             },{id: "dropdown-misc",
               title: "misc",
@@ -85,21 +71,31 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-same-sink-different-plumbing-reproducing-and-refining-the-mechanism-of-attention-sinks-was-accepted-to-the-blackboxnlp-2026-reproducibility-special-track",
           title: 'Our paper, “Same Sink, Different Plumbing: Reproducing and Refining the Mechanism of Attention...',
           description: "",
-          section: "News",},{id: "projects-hambamart",
-          title: 'HambaMart',
-          description: "Django-based livestock marketplace with multi-role transaction and inventory workflows.",
+          section: "News",},{id: "projects-dsdm-knowledge-editing-experiments",
+          title: 'DSDM Knowledge-Editing Experiments',
+          description: "Experimental infrastructure for DSDM-based replacement and knowledge editing, including ROME-aligned evaluation, consecutive editing, bounded sweeps, and reproducible experiment tooling.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hambamart/";
+              window.location.href = "/projects/dsdm-knowledge-editing/";
             },},{id: "projects-hypercite",
           title: 'HyperCite',
-          description: "AI research summarization and collaboration hub with verifiable, source-anchored citations.",
+          description: "Research-assistance platform combining hybrid retrieval, cross-paper evidence diversification, and excerpt-anchored citations for verifiable literature-grounded answers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/hypercite/";
-            },},{id: "projects-mewply",
-          title: 'Mewply',
-          description: "MERN music-streaming platform with user, administration, and backend applications.",
+            },},{id: "projects-ld-aware-genomic-prediction",
+          title: 'LD-Aware Genomic Prediction',
+          description: "EBMGP-style genomic prediction study evaluating LD-aware SNP representations, pooling strategies, and classical baselines across three species and eleven traits.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/mewply/";
+              window.location.href = "/projects/ld-aware-genomic-prediction/";
+            },},{id: "projects-minivsfs",
+          title: 'MiniVSFS',
+          description: "C implementation of a simplified inode-based filesystem image builder and updater, covering superblocks, allocation bitmaps, inode tables, and directory entries.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/minivsfs/";
+            },},{id: "projects-dual-mpu-posture-corrector",
+          title: 'Dual-MPU Posture Corrector',
+          description: "Embedded posture-monitoring prototype using dual IMUs, calibration and motion-state logic, haptic feedback, and Wi-Fi telemetry.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/posture-corrector/";
             },},{
         id: 'social-email',
         title: 'email',
