@@ -265,6 +265,10 @@ html:not([data-theme="dark"]) {
 
 // Personal chapters use the existing page layout and sidebar TOC.
 .misc-page {
+  p {
+    max-width: 75ch;
+  }
+
   > h2 {
     margin-top: 2.75rem;
     margin-bottom: 1.25rem;
