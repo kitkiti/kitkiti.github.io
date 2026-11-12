@@ -1,0 +1,10 @@
+- title: "CAPE — Causally Audited Physics Editing"
+  description: >-
+    Studying whether post-training interventions can reduce cosmological inference
+    sensitivity to uncertain astrophysical feedback without sacrificing
+    cosmologically useful information.
+
+- title: "Mind or Mouth? — Cross-Model KV Communication"
+  description: >-
+    Studying whether translated KV caches can transfer source-specific information
+    between language models independently of learned behavioral tendencies.

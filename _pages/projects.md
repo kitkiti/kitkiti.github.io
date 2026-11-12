@@ -13,6 +13,16 @@ horizontal: true
 
 <!-- pages/projects.md -->
 <div class="projects">
+{% if site.data.ongoing_research != blank %}
+  <section class="ongoing-research" aria-labelledby="ongoing-research-title">
+    <h2 class="category" id="ongoing-research-title">ongoing research</h2>
+    <div class="ongoing-research-grid">
+      {% for project in site.data.ongoing_research %}
+        {% include ongoing_research_card.liquid project=project %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}

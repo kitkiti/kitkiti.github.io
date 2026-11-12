@@ -1,0 +1,13 @@
+{% if page.current_projects.enabled and site.data.ongoing_research != blank %}
+  {% assign current_projects_limit = page.current_projects.limit | default: 2 %}
+  {% if current_projects_limit > 0 %}
+    <section class="current-projects" aria-labelledby="current-projects-title">
+      <h2 id="current-projects-title">current projects</h2>
+      <div class="ongoing-research-grid">
+        {% for project in site.data.ongoing_research limit: current_projects_limit %}
+          {% include ongoing_research_card.liquid project=project %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endif %}

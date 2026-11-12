@@ -1,0 +1,7 @@
+<article class="ongoing-research-card">
+  <h3>{{ include.project.title | escape }}</h3>
+  {% if include.project.subtitle %}
+    <p class="ongoing-research-subtitle">{{ include.project.subtitle | escape }}</p>
+  {% endif %}
+  <p>{{ include.project.description | escape }}</p>
+</article>
