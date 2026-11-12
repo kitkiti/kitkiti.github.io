@@ -50,42 +50,77 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
 }
 
-// Homepage research themes, subordinate to the About hero.
-.research-directions {
+// Research identity stays in front matter; grid areas preserve mobile reading order.
+.research-profile {
   margin-bottom: 2.5rem;
 
   > h2 {
     margin-bottom: 1rem;
   }
 
-  .research-directions-grid {
+  .research-profile-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: 1rem;
+    gap: 1.25rem 1.75rem;
+    padding: 1rem 0;
   }
 
-  .research-direction-card {
-    padding: 1rem;
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.25rem;
+  h3 {
+    margin-bottom: 0.75rem;
+    color: var(--global-theme-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
 
-    h3 {
-      margin-bottom: 0.5rem;
-      color: var(--global-theme-color);
-      font-size: 1.1rem;
-      font-weight: 500;
-      line-height: 1.4;
-    }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
-    p {
-      margin-bottom: 0;
+  li {
+    line-height: 1.5;
+  }
+
+  .research-profile-questions,
+  .research-profile-methods {
+    padding-top: 1rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .research-profile-questions li {
+    max-width: 75ch;
+
+    + li {
+      margin-top: 1rem;
     }
   }
 
   @media (min-width: 992px) {
-    .research-directions-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+    .research-profile-grid {
+      grid-template-areas:
+        "focus questions"
+        "methods questions";
+      grid-template-columns: minmax(0, 0.31fr) minmax(0, 0.69fr);
+    }
+
+    .research-profile-focus {
+      grid-area: focus;
+    }
+
+    .research-profile-questions {
+      grid-area: questions;
+      padding-top: 0;
+      padding-left: 1.75rem;
+      border-top: 0;
+      border-left: 1px solid var(--global-divider-color);
+    }
+
+    .research-profile-methods {
+      grid-area: methods;
     }
   }
 }
@@ -114,6 +149,10 @@ html:not([data-theme="dark"]) {
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

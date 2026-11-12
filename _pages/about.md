@@ -14,7 +14,7 @@ social: true # includes social icons at the bottom of the page
 
 current_projects:
   enabled: true
-  limit: 2
+  limit: 3
 
 announcements:
   enabled: true # includes a list of news items
@@ -26,18 +26,26 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
-research_directions:
-  - title: Knowledge–behavior mismatch
-    description: >-
-      Understanding when a language model's observable behavior gives an incomplete picture of what it represents internally,
-      including settings involving suppression, refusal, and latent knowledge.
-  - title: Model interventions
-    description: >-
-      Studying whether unlearning and knowledge-editing methods genuinely alter internal representations rather than only changing model outputs.
-  - title: Mechanistic interpretability
-    description: >-
-      Using representation-level and causal analyses to understand the mechanisms underlying model behavior and whether those explanations
-      generalize across models and settings.
+research_profile:
+  focus:
+    - AI safety & trustworthy AI
+    - Language-model behavior
+    - Model interventions
+
+  questions:
+    - >-
+      When does observable behavior give an incomplete picture of what a model represents internally?
+    - >-
+      When do interventions genuinely change internal representations rather than only model outputs?
+    - >-
+      How can we evaluate whether those changes remain reliable across models and settings?
+
+  methods:
+    - Mechanistic interpretability
+    - Representation analysis
+    - Causal interventions
+    - Machine unlearning
+    - Knowledge editing
 ---
 
 I am an Adjunct Lecturer in the Department of Computer Science and Engineering at BRAC University. My research is broadly in AI safety and trustworthy AI, with a focus on understanding how the internal states and mechanisms of language models relate to their observable behavior.

@@ -54,16 +54,34 @@ layout: default
       {% endif %}
     </div>
 
-    {% if page.research_directions %}
-      <section class="research-directions" aria-labelledby="research-directions-title">
-        <h2 id="research-directions-title">research directions</h2>
-        <div class="research-directions-grid">
-          {% for direction in page.research_directions %}
-            <div class="research-direction-card">
-              <h3>{{ direction.title }}</h3>
-              <p>{{ direction.description }}</p>
-            </div>
-          {% endfor %}
+    {% if page.research_profile %}
+      <section class="research-profile" aria-labelledby="research-profile-title">
+        <h2 id="research-profile-title">research profile</h2>
+        <div class="research-profile-grid">
+          <div class="research-profile-focus">
+            <h3>Focus</h3>
+            <ul>
+              {% for focus in page.research_profile.focus %}
+                <li>{{ focus | escape }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="research-profile-questions">
+            <h3>Driving questions</h3>
+            <ul>
+              {% for question in page.research_profile.questions %}
+                <li>{{ question | escape }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="research-profile-methods">
+            <h3>Methods</h3>
+            <ul>
+              {% for method in page.research_profile.methods %}
+                <li>{{ method | escape }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </section>
     {% endif %}

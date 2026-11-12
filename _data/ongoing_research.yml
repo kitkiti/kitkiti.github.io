@@ -8,3 +8,8 @@
   description: >-
     Studying whether translated KV caches can transfer source-specific information
     between language models independently of learned behavioral tendencies.
+
+- title: "MIRAGE-Persist"
+  description: >-
+    Studying how security failures persist across long-running, tool-using AI systems
+    and how to evaluate them reliably.
