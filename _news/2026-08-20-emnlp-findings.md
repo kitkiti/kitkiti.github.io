@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "[Representation-Aware Unlearning via Activation Signatures: From Suppression to Entity-Signature Erasure](https://arxiv.org/abs/2601.10566)," was accepted to Findings of EMNLP 2026.
+Our paper, "[Representation-Aware Unlearning via Activation Signatures: From Suppression to Entity-Signature Attenuation](https://aclanthology.org/2026.findings-emnlp.528/)," was accepted to Findings of EMNLP 2026.
