@@ -8,10 +8,6 @@ profile:
   align: right
   image: profile-hibiscus.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Department of Computer Science and Engineering</p>
-    <p>BRAC University</p>
-    <p>Dhaka, Bangladesh</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
