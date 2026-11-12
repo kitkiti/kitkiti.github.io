@@ -1,9 +1,9 @@
 ---
 layout: page
 title: HyperCite
-description: AI research summarization and collaboration hub with verifiable, source-anchored citations.
+description: Research-assistance platform combining hybrid retrieval, cross-paper evidence diversification, and excerpt-anchored citations for verifiable literature-grounded answers.
 img:
-importance: 1
+importance: 2
 category: research
 ---
 

@@ -1,10 +1,9 @@
 github_users:
   - kitkiti
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - kitkiti/Music-Streaming-App
-  - kitkiti/HambaMart
+  - kitkiti/dsdm-knowledge-editing-experiments
+  - kitkiti/ld-aware-genomic-prediction
   - kitkiti/MiniVSFS
-  - kitkiti/Rosalind

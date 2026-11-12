@@ -90,6 +90,42 @@ footer.sticky-bottom {
   }
 }
 
+// Earlier projects stay subordinate to the selected research and technical cards.
+.projects {
+  h2.category {
+    color: var(--global-text-color-light);
+  }
+
+  .card .card-body .card-text {
+    color: var(--global-text-color);
+  }
+}
+
+.earlier-technical-projects {
+  margin-top: 2.5rem;
+  font-size: 0.925rem;
+
+  h2 {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.35rem;
+  }
+
+  > p {
+    color: var(--global-text-color-light);
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+}
+
 // Personal chapters use the existing page layout and sidebar TOC.
 .misc-page {
   > h2 {

@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: My GitHub profile and selected software projects.
+description: Selected public code repositories. See the Projects page for research context and project-level descriptions.
 nav: false
 nav_order: 4
 ---
