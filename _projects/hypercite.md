@@ -29,4 +29,4 @@ React, TypeScript, Node.js, Express, MongoDB, Supabase, and Liveblocks.
 - Tasfia Zaman
 - Jareen Tasneem Khondaker
 
-[Open HyperCite](https://hypercite.vercel.app) | [Read the CSE471 showcase newsletter](https://drive.google.com/file/d/1HLFBXXIWx4GXeddSjWRFx7PTrvx2DQSy/view)
+[Open HyperCite](https://hypercite.vercel.app) | [Official BRAC University coverage](https://www.bracu.ac.bd/news/brac-university-hosts-cse471-project-showcase-fall-2025)
